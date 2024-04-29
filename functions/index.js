@@ -51,4 +51,4 @@ app.get("/getBlogPosts", async (req, res)=>{
     res.send(documents);
 });
 
-exports.app = functions.https.onRequest(app);
+exports.nsfl_app = functions.https.onRequest(app);
